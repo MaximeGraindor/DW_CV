@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+$font: Montserrat,"Arial","sans-serif";
+$darkColor : #212227;
+$whiteColor : #FAFAFA;
+$greyColor : #909193;
+$yellowColor : #FFC700;
+
+body{
+    font-family: $font;
+    position: relative;
+}
+
+.hidden{
+    position: absolute;
+    left: -9999px;
+}
